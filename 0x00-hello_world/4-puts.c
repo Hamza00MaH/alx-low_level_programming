@@ -1,7 +1,9 @@
 #include<stdio.h>
-/*
-* main - our fucntion/entry point
-* Return: Always 0 integer
+/**
+	 * main -our fuction/entrypoint
+	 *
+	 * Description:  puts command,
+	 * Return: 0.
 */
 int main(void)
 {
