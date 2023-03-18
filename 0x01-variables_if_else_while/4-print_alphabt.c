@@ -1,17 +1,21 @@
 #include <stdio.h>
 /**
 	 * main -our entrypoint
-	 * Description:  lowercases alphabet on ASCll,
+	 * Description:  lowercases alphabet on ASCll exepting some letter,
 	 * Return: 0.
 */
 int main(void)
 {
 int lwa;
-for (lwa = 97; lwa <= 122; lwa++)
 char ltr = 'a' + lwa;
-if(ltr == 'q' || ltr == 'e')
-{}
-else{
+for (lwa = 0; lwa < 26; lwa++)
+if (ltr == 'q' || ltr == 'e')
+{
+ltr++;
+continue;
+}
+else
+{
 putchar(lwa);
 }
 putchar('\n');
