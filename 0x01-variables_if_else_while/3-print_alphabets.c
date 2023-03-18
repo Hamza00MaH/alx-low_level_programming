@@ -16,6 +16,5 @@ for (upa = 0; upa < 26; upa++)
 {
 putchar('A' + upa);
 }
-putchar(' ');
 return (0);
 }
