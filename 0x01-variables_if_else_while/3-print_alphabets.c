@@ -7,15 +7,15 @@
 int main(void)
 {
 int lwa;
-for (lwa = 97; lwa <= 122; lwa++)
+int upa;
+for (lwa = 0; lwa < 26; lwa++)
 {
-putchar(lwa);
+putchar('a' + lwa);
 }
 putchar('\n');
-int upa;
-for (upa = 60; upa <= 90; upa++)
+for (upa = 0; upa < 26; upa++)
 {
-putchar(upa);
+putchar('A' + upa);
 }
 return (0);
 }
