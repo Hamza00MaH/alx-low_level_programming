@@ -12,10 +12,10 @@ for (lwa = 0; lwa < 26; lwa++)
 {
 putchar('a' + lwa);
 }
-putchar('\n');
 for (upa = 0; upa < 26; upa++)
 {
 putchar('A' + upa);
 }
+putchar(' ');
 return (0);
 }
