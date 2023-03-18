@@ -7,8 +7,9 @@
 int main(void)
 {
 int lwa;
-char ltr = 'a' + lwa;
 for (lwa = 0; lwa < 26; lwa++)
+{
+char ltr = 'a' + lwa;
 if (ltr == 'q' || ltr == 'e')
 {
 ltr++;
@@ -16,7 +17,8 @@ continue;
 }
 else
 {
-putchar(lwa);
+putchar(ltr);
+}
 }
 putchar('\n');
 return (0);
