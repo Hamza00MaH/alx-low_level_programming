@@ -6,14 +6,14 @@
 */
 int main(void)
 {
-_putchart('_');
-_putchart('p');
-_putchart('u');
-_putchart('t');
-_putchart('c');
-_putchart('h');
-_putchart('a');
-_putchart('r');
-_putchart('t');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('t');
 return (0);
 }
