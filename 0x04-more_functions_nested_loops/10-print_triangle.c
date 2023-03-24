@@ -25,7 +25,7 @@ for (k = 0; k <= j; k++)
 {
 _putchar(35);
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 _putchar('\n');
