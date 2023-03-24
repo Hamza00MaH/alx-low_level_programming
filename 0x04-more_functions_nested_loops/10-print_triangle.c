@@ -16,7 +16,7 @@ _putchar('\n');
 else
 {
 for (j = 0; j < size; j++)
-}
+{
 for (i = size - j; i > 1; i--)
 {
 _putchar(32);
