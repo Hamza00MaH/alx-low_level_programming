@@ -26,7 +26,6 @@ for (k = 0; k <= j; k++)
 _putchar(35);
 }
 _putchar('\n');
-}
-_putchar('\n'); 
+} 
 }
 }
