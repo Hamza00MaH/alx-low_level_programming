@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  *puts2 - entry point
@@ -13,7 +13,7 @@ while (str[x])
 {
 if (x % 2 == 0)
 {
-_putchar(str[x])
+_putchar(str[x]);
 }
 i++;
 }
