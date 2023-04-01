@@ -8,7 +8,7 @@
 
 char *leet(char *enc)
 {
-int lentgh, letrep;
+int length, letrep;
 /*length for length ^_^, letrep for checking letters that be replaced */
 char let[] = "aAeEoOtTlL";
 char num[] = "4433007711";
