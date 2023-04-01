@@ -18,7 +18,7 @@ if (i == 0)
 {
 cap[i] -= 32;
 }
-if (strchr(" \t\n,;.!?\"(){}|", cap[i - 1]) != NULL)
+if (strchr("\t\n,;.!?\"(){}|", cap[i - 1]) != NULL)
 {
 cap[i] -= 32;
 }
