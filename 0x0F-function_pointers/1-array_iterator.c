@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 
+
 /**
 * array_iterator - our function
 * @array: pointer to array
@@ -10,7 +11,8 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-for (size_t n = 0; n < size; n++)
+size_t n; 
+for (n = 0; n < size; n++)
 {
 action(array[n]);
 }
