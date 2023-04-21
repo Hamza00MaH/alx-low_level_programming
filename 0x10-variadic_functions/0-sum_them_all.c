@@ -8,7 +8,7 @@
 * Return: 0 if n=0 else the sum of all param
 */
 
-int sum_them_all(const unsigned int n, ...);
+int sum_them_all(const unsigned int n, ...)
 {
 va_list num;
 int sum = 0;
