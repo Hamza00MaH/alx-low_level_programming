@@ -20,4 +20,8 @@ sum += va_arg(num, int);
 }
 va_end(num);
 return (sum);
+if (n == 0)
+{
+return (0);
+}
 }
