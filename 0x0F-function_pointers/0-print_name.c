@@ -1,4 +1,5 @@
 #include "function_pointers.h"
+#include <stdio.h>
 
 /**
 * print_name - our function that print name
@@ -10,5 +11,6 @@
 
 void print_name(char *name, void (*f)(char *))
 {
+if (name != 0 && f != 0)
 f(name);
 }
