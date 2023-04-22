@@ -2,9 +2,10 @@
 #include <stdarg.h>
 
 /**
-* int index - our function comparison
+* int_index - our function comparison
 * @array: our array
 * @size:size of array
+* @cmp: compered str
 * Return:if match return !=0 else return -1
 */
 
@@ -17,9 +18,9 @@ for (int i = 0; i < size; i++)
 {
 if (cmp(array[i]) != 0)
 {
-return i;
+return (i);
 }
 }
 }
-return -1;
+return (-1);
 }
