@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-* add_note - our function that add new node at head
+* add_node - our function that add new node at head
 * @head: pointer to the head of the Linkded-List
 * @str:pointer to nul-term
 * Return: number of nodes
@@ -16,7 +16,8 @@ add = malloc(sizeof(list_t));
 if (add == NULL)
 return (NULL);
 add->str = strdup(str);
-for (count = 0; str[count]; count++);
+for (count = 0; str[count]; count++)
+{};
 add->len = count;
 add->next = *head;
 *head = add;
