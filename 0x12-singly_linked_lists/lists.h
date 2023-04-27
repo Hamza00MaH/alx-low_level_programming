@@ -8,7 +8,7 @@
 struct list
 {
 char *str;
-long unsigned int len;
+unsigned int len;
 struct list *next;
 };
 typedef struct list list_t;
