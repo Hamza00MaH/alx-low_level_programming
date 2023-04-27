@@ -14,11 +14,9 @@ list_t *add;
 size_t count;
 add = malloc(sizeof(list_t));
 if (add == NULL)
-{
 return (NULL);
-}
 add->str = strdup(str);
-for (count = 0; str[count]; count++)
+for (count = 0; str[count]; count++);
 add->len = count;
 add->next = *head;
 *head = add;
