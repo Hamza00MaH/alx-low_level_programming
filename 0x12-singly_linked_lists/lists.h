@@ -1,10 +1,15 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 struct list
 {
 char *str;
-struct node *next;
+long unsigned int len;
+struct list *next;
 };
 typedef struct list list_t;
 int _putchar(char c);

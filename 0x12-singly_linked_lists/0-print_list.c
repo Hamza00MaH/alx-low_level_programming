@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
 * print_list - our function that print name
@@ -11,16 +9,15 @@
 size_t print_list(const list_t *h)
 {
 size_t count = 0;
-const list_t p = h;
-while (p != NULL)
+if (!h->str)
 {
-printf("[%zu] %s\n", count, p->str);
-p = p->next;
-count++;
+printf("[0] (nil)\n");
 }
-if (count == 0)
+while (h != NULL)
 {
-printf("(nil)\n");
+printf("[%ld] %s\n", h->len, h->str);
+h = h -> next;
+count++;
 }
 return (count);
 }
