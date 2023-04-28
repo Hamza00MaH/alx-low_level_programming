@@ -8,9 +8,11 @@
 
 void free_list(list_t *head)
 {
-list_t *nod = head;
-if (head == NULL)
-return (0);
-free_list(head->next);
-free(head);
+list_t *nod;
+ while ((nod = head) != NULL)
+{
+head = head->next;
+free(nod->str);
+free(nod);
+}
 }
