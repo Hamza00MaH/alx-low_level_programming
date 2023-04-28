@@ -8,8 +8,9 @@
 
 void free_list(list_t *head)
 {
+list_t *nod = head;
 if (head == NULL)
-return;
+return (0);
 free_list(head->next);
 free(head);
 }
