@@ -1,8 +1,7 @@
-	mov eax, 4
-	mov ebx, 1
-	mov edi, offset formatttt
-	mov esi, offset wrt_it
-	call printf 
-	wrt_it db "Hello, Holberton"
-	formatttt db "%s\n"
-	
+mov eax, 4
+mov ebx, 1
+mov edi, offset fmt
+mov esi, offset str
+call printf 
+str db "Hello, Holberton"
+fmt db "%s\n"
