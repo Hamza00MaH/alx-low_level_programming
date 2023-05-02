@@ -13,7 +13,7 @@ if (*head == NULL)
 return;  
 while (head != NULL)
 {
-nod = *head;
+*head = nod;
 nod = (*head)->next;
 free(*head);
 }
