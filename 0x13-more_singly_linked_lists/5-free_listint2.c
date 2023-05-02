@@ -15,7 +15,9 @@ while (*head)
 {
 nod = (*head)->next;
 free(*head);
+if (nod != NULL)
 *head = nod;
+else
 head = NULL;
 }
 }
