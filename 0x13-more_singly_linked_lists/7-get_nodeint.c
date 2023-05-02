@@ -13,7 +13,7 @@ unsigned int count = 0;
 listint_t *nod = head;
 while (nod)
 {
-if(count == index)
+if (count == index)
 return (nod);
 else
 {
