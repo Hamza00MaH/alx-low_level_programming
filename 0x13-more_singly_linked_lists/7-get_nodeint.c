@@ -21,5 +21,5 @@ nod = nod->next;
 count++;
 }
 }
-return (head);
+return (NULL);
 }
