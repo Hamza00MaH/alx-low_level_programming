@@ -15,5 +15,5 @@ return (0);
 *head = (*head)->next;
 data = nod->n;
 free(nod);
-return (0);
+return (data);
 }
