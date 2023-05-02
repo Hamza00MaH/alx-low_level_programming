@@ -13,7 +13,6 @@ while (head != NULL)
 {
 nod = head;
 head = head->next;
-free(nod->n);
 free(nod);
 }
 }
