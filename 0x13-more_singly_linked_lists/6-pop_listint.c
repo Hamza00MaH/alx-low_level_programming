@@ -14,6 +14,6 @@ if (*head == NULL)
 return (0);
 *head = (*head)->next;
 data = nod->n;
-free(nod)
+free(nod);
 return (0)
 }
