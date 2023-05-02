@@ -14,7 +14,7 @@ if (head == NULL)
 return (0);
 while (nod)
 {
-sum = sum = nod->n;
+sum = sum + nod->n;
 nod = nod->next;
 }
 return (sum);
