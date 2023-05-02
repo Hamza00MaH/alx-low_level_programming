@@ -8,13 +8,13 @@
 
 void free_listint2(listint_t **head)
 {
-listint_t *nod;
-if (head == NULL)
+listint_t *nod = *head;
+if (*head == NULL)
 return;  
 while (head != NULL)
 {
-nod = head;
-head = head->next;
-free(nod);
+nod = *head;
+nod = (*head)->next;
+free(*head);
 }
 }
