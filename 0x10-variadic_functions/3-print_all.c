@@ -19,8 +19,8 @@ va_start(args, format);
 while (format && format[i])
 {
 while (format[i])
-  {
-    switch (format[i])
+{
+switch (format[i++])
 {
 case 'c':
 printf("%c", va_arg(args, int));
@@ -35,7 +35,7 @@ case 's':
 s = va_arg(args, char *);
 if (s == NULL)
 {
-s = "(nil)"; 
+s = "(nil)";
 }
 printf("%s", s);
 break;
